@@ -15,6 +15,7 @@ void main(){
 
     // ? this is null aware operator
     // ! null check operator
+
   int? age;
   print(age); // this will show as null
   print(age ?? "no result"); //this will show what we have mentioned instead of null
